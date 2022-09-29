@@ -1,11 +1,11 @@
 import React from 'react';
 import './Exercisedetails.css'
 
-const Exercisedetails = ({time}) => {
+const Exercisedetails = ({ time }) => {
 
     // console.log(time);
-        let totalTime = 0;
-    for (const second of time){
+    let totalTime = 0;
+    for (const second of time) {
         // console.log(second);
         const getTime = parseInt(second.time);
         totalTime = totalTime + getTime;
@@ -16,7 +16,7 @@ const Exercisedetails = ({time}) => {
                 <h4 className='ex-time'>Exercise time</h4>
                 <p>{totalTime}  minute</p>
             </div>
-            
+
         </div>
     );
 };
