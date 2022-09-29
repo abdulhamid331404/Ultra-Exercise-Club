@@ -12,15 +12,11 @@ const Exercisedetails = ({time}) => {
     }
     return (
         <div className='Exercisedetails'>
-            <h2>Exercise Details</h2>
             <div className='exercise-time'>
                 <h4 className='ex-time'>Exercise time</h4>
                 <p>{totalTime} minute</p>
             </div>
-            <div className='Break-time'>
-                    <h4>Break time</h4>
-                    <p>0 minute</p>
-            </div>
+            
         </div>
     );
 };

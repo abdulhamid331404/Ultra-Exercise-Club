@@ -1,0 +1,15 @@
+
+.Break-time{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 70px;
+    background-color:rgb(242, 239, 239);
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    margin-top: 20px;
+    float: top 250px;;
+}
