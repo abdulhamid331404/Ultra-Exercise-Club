@@ -1,0 +1,25 @@
+.cart-info{
+    width: 300px;
+    height: 483px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: rgb(206, 203, 203);
+}
+.cart-details{
+    margin-left: 10px;
+}
+.cart-info img{
+    width: 290px;
+    height: 280px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.cart-btn{
+    width: 300px;
+    border-radius: 0px 0px 10px 10px;
+    border: none;
+    background-color: antiquewhite;
+}
+.cart-btn:hover{
+    background-color: rgb(243, 213, 168);
+}

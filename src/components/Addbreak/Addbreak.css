@@ -1,0 +1,26 @@
+.add-title{
+    margin-left: 5px;
+}
+.break-time{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    margin-left: 10px;
+    height: 100px;
+    background-color:rgb(242, 239, 239);
+    align-items: center;
+    border-radius: 10px;
+    margin-right: 5px;
+
+}
+.break-time button{
+    border: 0px;
+    background-color: white;
+    height: 40px;
+    border-radius: 20px;
+    margin: 2px 2px;
+}
+.break-time button:hover{
+    background-color: blue;
+    color: white;
+}

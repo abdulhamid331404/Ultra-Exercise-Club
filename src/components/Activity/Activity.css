@@ -1,0 +1,14 @@
+.activity-container{
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.activity-btn{
+    width:100%;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    margin: top 25px; 
+    border: 0px;
+    border-radius: 5px;
+}

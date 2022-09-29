@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "name": "Crossfit",
+      "img": "https://b.fitn.in/app/home/categories/crossfit_Light.jpg",
+      "time": 30,
+      "age": "20-30"
+    },
+    {
+      "id": 2,
+      "name": "Push-up",
+      "img": "https://www.fitnesseducation.edu.au/wp-content/uploads/2020/10/Pushups.jpg",
+      "time": 45,
+      "age": "20-35"
+    },
+    {
+      "id": 3,
+      "name": "Bent-over row",
+      "img": "https://www.care2curephysiotherapy.com/wp-content/uploads/2022/01/bent-over-row.jpg",
+      "time": 25,
+      "age": "25-30"
+
+    },
+    {
+      "id": 4,
+      "name": "Burpee",
+      "img": "https://i.ytimg.com/vi/auBLPXO8Fww/maxresdefault.jpg",
+      "time": 40,
+      "age": "25-40"
+    },
+    {
+      "id": 5,
+      "name": "Plank",
+      "img": "https://hips.hearstapps.com/hmg-prod/images/hdm119918mh15842-1545237096.png",
+      "time": 50,
+      "age": "20-30"
+    },
+    {
+      "id": 6,
+      "name": "Lunge",
+      "img": "https://www.verywellfit.com/thmb/anpPWUBC2DKZvS-FHL6RuT5cKOo=/2500x1667/filters:no_upscale():max_bytes(150000):strip_icc()/Verywell-44-2328705-DumbellLunge01-1589-8cd8f2dac4294549b5279f6f91e3eb41.jpg",
+      "time": 35,
+      "age": "25-35"
+    },
+    {
+      "id": 7,
+      "name": "One-arm dumbbell row",
+      "img": "https://www.verywellfit.com/thmb/4Q8kDD0cQ4Nbzzqa1a2Rg3soPz0=/900x704/filters:fill(FFDB5D,1)/DominicDiSaia-56a8f3803df78cf772a22c14.jpg",
+      "time": 25,
+      "age": "20-35"
+    },
+    {
+      "id": 8,
+      "name": "Pistol squat",
+      "img": "https://hips.hearstapps.com/hmg-prod/images/heromoves-3-index-1548352348.png",
+      "time": 38,
+      "age": "35-40"
+    },
+    {
+      "id": 9,
+      "name": "Bicycle crunch",
+      "img": "https://images.squarespace-cdn.com/content/v1/585b5da2b8a79bc5100edbe1/1484377347038-1YHE8IVX0ZFCVQJ1I55T/Bicycle3.JPG",
+      "time": 45,
+      "age": "25-50"
+    }
+  ]
