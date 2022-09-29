@@ -6,6 +6,7 @@ import Main from './components/Main/Main';
 import QuestionAnswer from './components/QuestionAnswer/QuestionAnswer';
 
 function App() {
+
   return (
     <div className='App'>
       <Header></Header>

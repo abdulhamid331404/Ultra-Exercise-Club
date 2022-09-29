@@ -6,13 +6,16 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Activity = () => {
     const showToastMessage = () => {
-        toast('Success Notification !');
+        toast.success('Activity Completed', {
+            position: toast.POSITION.TOP_RIGHT
+        });
     };
     return (
         <div className='activity-container'>
             <button onClick={showToastMessage} className='activity-btn'>
                 <h4>Activity Completed</h4>
             </button>
+            <ToastContainer></ToastContainer>
         </div>
     );
 };
