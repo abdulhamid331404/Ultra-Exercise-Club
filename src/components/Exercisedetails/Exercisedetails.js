@@ -14,7 +14,7 @@ const Exercisedetails = ({time}) => {
         <div className='Exercisedetails'>
             <div className='exercise-time'>
                 <h4 className='ex-time'>Exercise time</h4>
-                <p>{totalTime} minute</p>
+                <p placeholder={0}>{totalTime}  minute</p>
             </div>
             
         </div>

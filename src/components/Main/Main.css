@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
     background-color: aliceblue;
-    margin-bottom: 50px;
     margin-left: 5px;
 }
 .exercise-container{
@@ -13,4 +12,17 @@
 .details-container{
     margin-left: 10px;
     background-color: white;
+}
+@media screen and (max-width:768px ) {
+    .main-container{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        background-color: aliceblue;
+        margin-left: 5px;
+    }
+    .exercise-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
 }

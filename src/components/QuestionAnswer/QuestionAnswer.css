@@ -1,0 +1,15 @@
+.single-quextion{
+    background-color: antiquewhite;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.state-props{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.state{
+    margin: 20px;
+}
