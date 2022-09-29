@@ -21,7 +21,17 @@ const Main = () => {
 
 
     const handleAddToTime = (cart) => {
-        // console.log(cart);
+        console.log(cart);
+        const quantity = localStorage.getItem(cart.name)
+        if(quantity){
+           const newQuantity = parseInt(quantity) + 1;
+           localStorage.setItem(cart.name, newQuantity);
+        }
+        else{
+            localStorage.setItem(cart.name, 1)
+        }
+
+        // localStorage.setItem(cart.name, 1)
         const newTime = [...time, cart]
         setTime(newTime);
     };
