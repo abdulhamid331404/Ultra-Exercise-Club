@@ -24,6 +24,7 @@ const QuestionAnswer = () => {
             <div className='single-quextion'>
                 <h1>What can be done without data load in useEffect?</h1>
                 <p> we might want to set up a subscription to some external data source. In that case, it is important to clean up so that we don’t introduce a memory leak!</p>
+                <p>I know the conventional way when using hooks is to fetch the data using the useEffect hook. But why can't I just call axios in the functional component instead of a hook and then set the data.</p>
             </div>
         </div>
     );
