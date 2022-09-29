@@ -4,8 +4,7 @@ import './Addbreak.css'
 
 
 const Addbreak = () => {
-    const [value, setValue] = useState([])
-    // console.log(value);
+    const [value, setValue] = useState([]);
     return (
         <div >
             <h2 className='add-title'>Add Break</h2>

@@ -3,7 +3,6 @@ import React from 'react';
 import './Breaktime.css'
 
 const Breaktime = ({ value }) => {
-    console.log(value);
     return (
         <div>
             <h2>Exercise Details</h2>
